@@ -870,10 +870,10 @@ A Query Router determines whether a question should use SQL, RAG, or both. The H
 
 ---
 
-## License
+## Authors
 
-This project is intended for educational, research, and demonstration purposes. Add an appropriate open-source license to the repository if the project is intended for public reuse.
-
+Abhishek Bhavsar
+Pravin Wankhere
 ```
 
 ```
