@@ -872,8 +872,10 @@ A Query Router determines whether a question should use SQL, RAG, or both. The H
 
 ## Authors
 
-Abhishek Bhavsar
-Pravin Wankhere
-```
+## Author
 
-```
+**Abhishek Bhavsar**
+* GitHub: [@abhi-bhavsar](https://github.com/abhi-bhavsar)
+
+**Your Name**
+* GitHub: [@PravinWankhare](https://github.com/PravinWankhare)
