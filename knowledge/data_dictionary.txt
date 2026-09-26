@@ -1,0 +1,122 @@
+AGRI-MARKET INTELLIGENCE DATA DICTIONARY
+
+PROJECT:
+Agri-Market Intelligence and Price Tracker
+
+PURPOSE:
+This knowledge base describes the meaning of the agricultural
+market warehouse and its major business concepts.
+
+FACT TABLE
+-----------
+
+fact_mandi_daily
+
+The central fact table stores daily agricultural market
+observations.
+
+Typical measures include:
+
+- minimum price
+- maximum price
+- modal price
+- crop arrival volume
+- market-related daily measurements
+
+
+LOCATION DIMENSION
+------------------
+
+dim_location
+
+Contains geographical information.
+
+Typical attributes:
+
+- state
+- district
+- market name
+
+
+CROP DIMENSION
+--------------
+
+dim_crop
+
+Contains agricultural commodity information.
+
+Typical attributes:
+
+- crop name
+- crop category
+
+
+DATE DIMENSION
+--------------
+
+dim_date
+
+Contains date and seasonal information.
+
+Typical attributes:
+
+- date
+- day
+- month
+- year
+- season
+
+
+WEATHER DIMENSION
+-----------------
+
+dim_weather
+
+Contains weather observations associated with market
+locations and dates.
+
+Typical attributes may include:
+
+- temperature
+- rainfall
+- weather conditions
+
+
+BUSINESS METRICS
+----------------
+
+MINIMUM PRICE
+
+The lowest reported price for a commodity during the
+relevant market observation period.
+
+
+MAXIMUM PRICE
+
+The highest reported price for a commodity during the
+relevant market observation period.
+
+
+MODAL PRICE
+
+The representative or prevailing reported price of a
+commodity in a market.
+
+
+ARRIVAL VOLUME
+
+The quantity of agricultural produce arriving at a mandi.
+
+In this project, crop volumes are represented in
+Metric Tons.
+
+
+IMPORTANT DATA RULE
+-------------------
+
+Actual numerical observations such as prices, rainfall,
+temperatures, arrival volumes and dates must be retrieved
+from PostgreSQL.
+
+Definitions and business terminology can be retrieved
+from the knowledge base.

@@ -1,0 +1,75 @@
+AGRICULTURAL MARKET TERMINOLOGY
+
+
+MANDI
+-----
+
+A mandi is a wholesale agricultural market where agricultural
+commodities are brought for trading.
+
+
+MODAL PRICE
+-----------
+
+Modal price represents the prevailing or representative
+reported price of a commodity in a market.
+
+For actual modal price values, the system must query the
+PostgreSQL database.
+
+
+MINIMUM PRICE
+-------------
+
+Minimum price represents the lowest reported price for a
+commodity during the relevant market observation period.
+
+
+MAXIMUM PRICE
+-------------
+
+Maximum price represents the highest reported price for a
+commodity during the relevant market observation period.
+
+
+ARRIVAL
+-------
+
+Arrival refers to agricultural produce reaching a mandi
+during a particular period.
+
+
+ARRIVAL VOLUME
+--------------
+
+Arrival volume represents the quantity of agricultural
+produce reaching a mandi.
+
+The project expresses arrival volume in Metric Tons.
+
+
+WHOLESALE MARKET
+----------------
+
+A wholesale agricultural market is a marketplace where
+agricultural commodities are traded in larger quantities.
+
+
+PRICE DISCREPANCY
+-----------------
+
+A price discrepancy occurs when the same agricultural
+commodity has different reported prices across different
+markets.
+
+
+WEATHER DISRUPTION
+------------------
+
+Weather conditions such as heavy rainfall or extreme heat
+can affect harvesting, transportation, supply and market
+arrivals.
+
+Such explanations provide contextual knowledge. Actual
+weather observations and actual market price changes must
+be retrieved from the database.

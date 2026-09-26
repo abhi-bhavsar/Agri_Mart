@@ -1,0 +1,131 @@
+PROJECT DOCUMENTATION
+
+PROJECT TITLE
+-------------
+
+Agri-Market Intelligence and Price Tracker:
+A BI Solution for Indian Wholesale Mandis
+
+
+BUSINESS PROBLEM
+----------------
+
+The agricultural supply chain contains fragmented market
+information.
+
+Farmers, traders and logistics providers may need to compare
+prices, supply volumes, locations and weather conditions
+across agricultural markets.
+
+
+KEY BUSINESS QUESTIONS
+----------------------
+
+1. What is the price of a crop in a particular mandi?
+
+2. Which mandi has the highest or lowest price?
+
+3. What is the average price across markets?
+
+4. How much crop is arriving at a mandi?
+
+5. How do prices differ between districts?
+
+6. What weather conditions were observed at a market?
+
+7. How are price and weather observations related?
+
+
+DATA WAREHOUSE
+--------------
+
+The system uses a Star Schema.
+
+Central fact table:
+
+fact_mandi_daily
+
+Dimension tables:
+
+dim_location
+dim_crop
+dim_weather
+dim_date
+
+
+BUSINESS INTELLIGENCE
+---------------------
+
+The warehouse can be connected to BI tools for dashboards
+and interactive analysis.
+
+The conversational AI layer provides a natural-language
+interface over the structured warehouse and knowledge base.
+
+
+AI LAYER
+--------
+
+The AI layer consists of:
+
+1. Query Router
+2. SQL Agent
+3. RAG Retriever
+4. Hybrid Answer Generator
+
+
+SQL AGENT
+---------
+
+The SQL Agent handles structured questions requiring actual
+database observations.
+
+Examples:
+
+- highest onion price
+- average tomato price
+- crop arrivals
+- market comparisons
+- rainfall measurements
+- date-based analysis
+
+
+RAG
+---
+
+RAG handles unstructured knowledge.
+
+Examples:
+
+- definitions
+- agricultural terminology
+- project documentation
+- explanations of business concepts
+- explanations of the Star Schema
+
+
+HYBRID
+------
+
+Hybrid queries require both structured database information
+and contextual knowledge.
+
+For example:
+
+"Why did onion prices increase after heavy rainfall?"
+
+The SQL system can provide the observed prices and weather
+measurements.
+
+The knowledge base can provide contextual information about
+how rainfall may affect harvesting, transportation and supply.
+
+
+IMPORTANT
+---------
+
+The AI must not invent actual market observations.
+
+Numerical observations should come from the database.
+
+Contextual explanations should come from the knowledge base.

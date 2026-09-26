@@ -1,0 +1,23 @@
+# ETL & Data Processing
+requests==2.31.0
+pandas==2.2.1
+rapidfuzz==3.9.7
+Levenshtein==0.26.1
+python-dotenv==1.0.1
+
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# Database (PostgreSQL)
+psycopg2-binary>=2.9.10
+SQLAlchemy==2.0.29
+
+# GenAI & API Backend (Updated to stable, compatible versions)
+fastapi==0.110.0
+uvicorn==0.29.0
+langchain>=0.2.0,<0.4.0
+langchain-community>=0.2.0,<0.4.0
+langchain-groq
+langchain-chroma
+langchain-huggingface
+sentence-transformers
